@@ -1,0 +1,68 @@
+#about{
+    background: #d82c2e;
+    padding-top: 100px; 
+}
+
+.profile-picture{
+    transition: transform .2s; /* Animation */
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.profile-picture img{
+    filter: grayscale(100%);
+}
+.profile-picture img:hover{
+    filter: none;
+     transform: scale(1.1); /* (100% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#about .heading h1{
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#about .heading h3{
+    
+    color: #000;
+    font-size: 20px;
+    
+}
+
+.button1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 18px 50px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    background: transparent;
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #fff;    }
+    49%{    color: #fff; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #fff;    }
+}
+
+
+.button1:hover{
+    background: #000;
+    text-decoration: none;
+}
+#intro{
+    color: #000;
+    text-align:center;
+    font-size: 22px;
+    font-weight:400;
+    text-align:center;
+    
+}

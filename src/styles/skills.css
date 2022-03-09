@@ -1,0 +1,27 @@
+#skills{
+    background: #fff;
+}
+
+#skills .heading h2{
+    color:#d82c2e;
+    text-transform: uppercase;
+}
+
+#skills .progress{
+    transition: transform .2s; /* Animation */
+    height: 100%;
+    background:#ddd;
+    margin: 30px 20px;
+}
+
+#skills .progress:hover{
+    transform: scale(1.1);
+}
+
+#skills .progress-bar{
+    background: #d82c2e;
+}
+
+#skills .progress-bar h5{
+    text-shadow: 1px 1px 1px #000;
+}
