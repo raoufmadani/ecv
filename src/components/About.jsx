@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/about.css';
-import raoufimage from '../images/newraoufimage.jpg';
-import linkedin from '../images/linkedin.png';
-import github from '../images/github.png';
+import raoufimage from '../imagescv/newraoufimage.jpg';
+import linkedin from '../imagescv/linkedin.png';
+import github from '../imagescv/github.png';
 import cvfile from '../files/Abderraouf_Madani_CV.pdf';
 
 const About = () => {

@@ -1,9 +1,9 @@
-import catalina from '../images/Catalina-Lonascu.jpg';
-import gutue from '../images/CristinaGutue.jpg';
-import fatima from '../images/fatima.jpg';
-import lamou from '../images/lamou.jpg';
-import oussama from '../images/oussamabenkali.jpg';
-import abdelkarim from '../images/AbdelKarim.jpg';
+import catalina from '../imagescv/Catalina-Lonascu.jpg';
+import gutue from '../imagescv/CristinaGutue.jpg';
+import fatima from '../imagescv/fatima.jpg';
+import lamou from '../imagescv/lamou.jpg';
+import oussama from '../imagescv/oussamabenkali.jpg';
+import abdelkarim from '../imagescv/AbdelKarim.jpg';
 
 const testimonial =[
 

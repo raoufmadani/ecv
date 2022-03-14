@@ -1,5 +1,5 @@
-import corona from '../images/coronhackathon.jpg';
-import asc from '../images/asc.jpg';
+import corona from '../imagescv/coronhackathon.jpg';
+import asc from '../imagescv/asc.jpg';
 
 
 

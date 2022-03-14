@@ -1,7 +1,7 @@
-import craiova from '../images/craiova.png';
-import warsaw from '../images/warsaw.png';
-import izmir from '../images/izmirTeknopark.jpg';
-import ege from '../images/egetestcenterlogo.png';
+import craiova from '../imagescv/craiova.png';
+import warsaw from '../imagescv/warsaw.png';
+import izmir from '../imagescv/izmirTeknopark.jpg';
+import ege from '../imagescv/egetestcenterlogo.png';
 
 const internship =[
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import bubble from '../images/bubble.png';
+import bubble from '../imagescv/bubble.png';
 
 const Testimonial = props => {
     
