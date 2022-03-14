@@ -1,18 +1,38 @@
 const professionalExperience =[
+    {
+        class:"timeline-panel-container-inverted",
+        job:"Co-founder and Full-stack developer",
+        company:"SARL AYL GROUP",
+        companyWebsite:"https://ayoungleader.com/",
+        date:" From 03/2021 until 03/2022",
+        jobDescription:"- Developing websites from scratch, setting their budget, scoping, and timelining for web projects",
+        projectName:"- ECV using React",
+        projectLink:"- https://raouf-cv.com",
+        projectName2:"- FormaCorpro website.",
+        projectLink2:"- https://formacorp.com",
+        projectName3:"- MBA careers accelerator web page.",
+        projectLink3:"- https://www.linkedin.com/posts/raoufmadani_web-bootstrap-softskills-activity-6877269169948250112-fJAz",
+        projectName4:"- Member app using React native, nodejs and mongodb",
+        projectLink4:"- https://www.youtube.com/watch?v=1SKlUWx3ayg",
+        info:"- Collaborating with web development team and writing reports.",
+        info2:"- Working closely with other web developer and UI designer using github and ClickUp.",
+        info3:"- Developing and maintaining web projects from scratch using front-end and back-end technologies.",
+        info4:"- Coordinating meetings with clients and setting their web projects budget and timeline."
+    },
 
     {
         class:"timeline-panel-container",
-        job:"ReBorn Co-Founder and Mobile developer",
+        job:"ReBorn Co-Founder and React full-stack developer",
         company:"Algeria Startup Challenge",
         companyWebsite:"https://algeriastartupchallenge.com/",
-        date:" From 02/03/2020 until 19/12/2020",
-        jobDescription:"- To do",
-        projectName:"- ReBorn Partner app",
+        date:" From 03/2020 until 12/2020",
+        jobDescription:"- Developing and maintaining both the front-end and back-end functionalities of the mobile app and deploying it on Google play platform",
+        projectName:"- ReBorn Partner app.",
         projectLink:"https://play.google.com/store/apps/details?id=com.ayl.tahfifa",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        info:"- Modelising from Scratch the database architecture.",
+        info2:"- Using React Native, Nodejs, Redux, MySql, Firebase and APIs.",
+        info3:"- Working closely with other developer and UI designer.",
+        info4:"- Pitching, attending meetings with the Minister of Startups and writing reports."
     },
 
     {
@@ -21,13 +41,13 @@ const professionalExperience =[
         company:"Bezwaar24",
         companyWebsite:"https://bezwaar24.nl",
         date:" From 03/08/2020 until 31/08/2020 Nimegen, Neitherlands",
-        jobDescription:"- To do",
-        projectName:"- Bezwaar24 web platform",
+        jobDescription:"- Developing Bezwaar24 website from scratch using web technologies.",
+        projectName:"- Bezwaar24 web platform.",
         projectLink:"https://bezwaar24.nl",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        info:"- Integrating the photoshop mockup of the website into static web pages.",
+        info2:"- Integrating the static web pages into CMS.",
+        info3:"- Using Html5, CSS3, Javascript, Jquery, Bootstrap and PHP.",
+        info4:"- Collaborating with web development team and writing reports using Github and Slack."
     },
 
     {
@@ -36,28 +56,35 @@ const professionalExperience =[
         company:"Schade24",
         companyWebsite:"https://schade24.com",
         date:" From 01/07/2020 until 31/07/2020 Nimegen, Neitherlands",
-        jobDescription:"- To do",
+        jobDescription:"- Developing and maintaing the backend of Schade24 website.",
         projectName:"- Schade24 web platform",
         projectLink:"https://schade24.com",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        info:"- Integrating Schade24 website into CMS.",
+        info2:"- Using PHP, HTML5 and Javascript.",
+        info3:"- Coordinating online meetings and writing reports.",
+        info4:"- Working closely with a web development team using Github."
     },
 
     {
         class:"timeline-panel-container-inverted",
-        job:"Full-Stack developer",
+        job:"Web developer and Project Manager",
         company:"DX Solutions",
         companyWebsite:"https://www.bachene-soft.com/",
-        date:" From 02/01/2020 until 01/01/2020 in Medea, Algeria",
-        jobDescription:"- To do",
-        projectName:"- To do",
-        projectLink:"- To do",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        date:" From 01/2020 until 01/2021 in Medea, Algeria",
+        jobDescription:"- Coordinating and attending meetings with the clients, setting the projects deadline and developing from scratch websites.",
+        projectName:"- University Saad Dahlab website (USDB)",
+        projectLink:"- https://univ-blida.dz",
+        projectName2:"- Superior Paramedical Institute website of Mostaganem city",
+        projectLink2:"- https://infspm-mosta.dz",
+        projectName3:"-  Paramedical Institute website of Chlef city",
+        projectLink3:"- https://ifpmchlef.ayoungleader.com/",
+        projectName4:"- Private Paramedical Institute website of Oran city",
+        projectLink4:"- https://epfpm-elbibane.com",
+        info:"- Writing well designed, testable, efficient code by using best software development practices",
+        info2:"- Consulting with internal stakeholders to determine the website's desired appearance and functionalities.",
+        info3:"- Developing user-friendly and visually appealing interfaces, and performing SEO procedures.",
+        info4:"- Training & mentoring IT departments staff of these institutes.",
+        
     },
     {
         class:"timeline-panel-container",
@@ -65,13 +92,13 @@ const professionalExperience =[
         company:"Ege Test Center",
         companyWebsite:"https://www.egetestcenter.com/",
         date:" From 18/11/2019 to 31/12/2019 in Izmir, Turkey",
-        jobDescription:"- To do",
+        jobDescription:"- Developing, Researching, implementing, and managing CertifyMyProduct e-commerce platform.",
         projectName:"- CertifyMyProduct e-commerce platform",
         projectLink:"https://certifymyproduct.com/",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        info:"- Writing and implementing efficient code.",
+        info2:"- Working closely with other developers, UX designers, business and systems analysts",
+        info3:"- Solving security threat of malicious or unwanted malware Adwords.",
+        info4:"- Technical Support Request (Godaddy, Bluehost and Google) | French & English"
     },
     {
         class:"timeline-panel-container-inverted",
@@ -79,13 +106,12 @@ const professionalExperience =[
         company:"DVLX Company",
         companyWebsite:"https://mobilmed.com.tr",
         date:" From 5/10/2019 to 15/11/2019 in Izmir, TURKEY",
-        jobDescription:"- To do",
-        projectName:"- Mobilmed",
+        jobDescription:"- Developing and maintaining Mobilmed e-commerce platform.",
+        projectName:"- Mobilmed e-commerce platform.",
         projectLink:"https://mobilmed.com.tr",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        info:"- Writing and implementing efficient code.",
+        info2:"- Managing CMS dashboard",
+        info3:"- Technical Support Request (Godaddy) | French & English"
     },
     {
         class:"timeline-panel-container",
@@ -93,37 +119,33 @@ const professionalExperience =[
         company:"Shiftin Agency",
         companyWebsite:"https://shiftin.co/",
         date:" From 05/08/19 to 05/09/19 in Algiers",
-        jobDescription:"- To do",
+        jobDescription:"- Developing company's blog from scratch using front-end and back-end features.",
         projectName:"- Shiftin's Blog",
         projectLink:"https://shiftin.co/blog",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        info:"- Writing and implementing efficient front-end code.",
+        info2:"- Integrating the blog into a CMS using PHP.",
+        info3:"- Working closely with Web development team.",
+        info4:"- Collaborating with IT department using Slack."
     },
     {
         class:"timeline-panel-container-inverted",
         job:"Wordpress Developer",
         company:"Celership Algérie",
         date:" From 26/06/18 to 26/08/18 at Hydra Algiers",
-        jobDescription:"- To do",
-        projectName:"- To do",
-        projectLink:"- To do",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        jobDescription:"- Creating and testing applications for websites.",
+        info:"- Writing and implementing efficient front-end code.",
+        info2:"-Working with graphics and other designers.",
+        info3:"- Troubleshooting website problems.",
+        info4:"- Maintaining and updating websites."
     },
     {
         class:"timeline-panel-container",
         job:"Trainer",
         company:"Web Development and E-commerce",
         date:" From 15/02/2017 to 04/07/2019",
-        jobDescription:"- To do",
-        info:"- To do",
-        info2:"- To do",
-        info3:"- To do",
-        info4:"- To do"
+        jobDescription:"- Training students, entrepreneurs and small business owners on the Web's fundamentals.",
+        info:"- Build your website with WordPress + Intro to E-commerce at ISchoolGenius School",
+        info2:"- 3 editions of Introduction to Web Development and Learn WordPress - Create a Beautiful Dynamic Website at CleverTech Startup",
     },
 
 ];

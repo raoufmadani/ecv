@@ -1,25 +1,18 @@
 /* Professional EXPERIENCE */
-
 #experience{
-    
     background: #d82c2e;  
-     
  }
  
  #experience .heading h2{
      color: #fff;
      text-transform: uppercase;
-     
- }
- 
- 
+ } 
  .timeline{
      padding: 30px 10px;
      position: relative;
  }
  
  .timeline:before{
-     
      top:0; /* top de la section*/
      bottom:0; /* bottom de la section*/
      position: absolute;
@@ -29,13 +22,10 @@
      left: 50%; /* pour le positioner au milieu de la section*/
      margin-left: -25px;
  }
- 
- 
- .timeline > li{ /* le signe > veut dire que timeline est le parent direct de li*/
-     
+
+ .timeline > li{ /* le signe > veut dire que timeline est le parent direct de li*/     
      margin-bottom: 20px;
      position: relative;
-     
  }
  
  .timeline > li:after{
@@ -45,11 +35,8 @@
  .timeline > li:before, .timeline > li:after{
      content: " "; /* Pour pouvoir voir le before et le after*/
      display: table;
-     
  }
- 
- .timeline li .timeline-badge{
-     
+ .timeline li .timeline-badge{   
      background-color: #ddd;
      color: #d82c2e;
      width: 50px;
@@ -62,21 +49,16 @@
      margin-left: -25px;
      border-radius: 50%;
  }
- 
- 
  .timeline-panel-container{
      transition: transform .2s; /* Animation */
      width: 50%;
-     float: left;
-     
+     float: left;   
  }
- 
  .timeline-panel-container-inverted{
      transition: transform .2s; /* Animation */
      width: 50%;
      float: right;
  }
- 
  .timeline-panel{
      text-align: left;
      width: 90%;
@@ -89,17 +71,11 @@
      background: #fff;
      padding: 20px 25px;
  }
- 
- 
- .timeline-panel-container-inverted .timeline-panel{
-     
+ .timeline-panel-container-inverted .timeline-panel{   
      margin-left: 40px;
      float: left;
  }
- 
- 
  .timeline-panel:after{
-     
      position: absolute;
      top: 27px;
      right: -14px;
@@ -110,22 +86,17 @@
      border-bottom: 14px solid transparent;
      content: " ";
  }
- 
- 
  .timeline-panel-container-inverted .timeline-panel:after{
      border-left-width: 0px;
      border-right-width: 14px;
      left: -14px;
      right: auto; /* pour annuler le right dans le timeline-panel:after*/
-     
  }
  
  .timeline-heading h3{
-     
      margin-top: 5px;
      font-size: 20px;
  }
- 
  .timeline-heading h4{
      color: #d82c2e;
  }

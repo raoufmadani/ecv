@@ -1,12 +1,12 @@
 #about{
     background: #d82c2e;
-    padding-top: 100px; 
+    padding-top:8em; 
 }
 
 .profile-picture{
     transition: transform .2s; /* Animation */
-    float: none;
-    text-align: center;
+    float: right;
+    text-align: left;
     margin: 0 auto;
 }
 
@@ -15,7 +15,15 @@
 }
 .profile-picture img:hover{
     filter: none;
-     transform: scale(1.1); /* (100% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+}
+.profile-picture .heading{
+    text-align: left !important;
+}
+.info{
+    float: left !important;
+    margin: 0 auto;
+    transition: transform .2s; /* Animation */
 }
 
 #about .heading h1{
@@ -25,12 +33,6 @@
     margin-top: 15px;
 }
 
-#about .heading h3{
-    
-    color: #000;
-    font-size: 20px;
-    
-}
 
 .button1{
     color: #fff;
@@ -59,10 +61,43 @@
     text-decoration: none;
 }
 #intro{
+    padding-top: 2em;
     color: #000;
-    text-align:center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight:400;
-    text-align:center;
-    
+    transition: transform .2s; /* Animation */
+    float: right;
+    text-align: justify;
+    margin: 0 auto; 
 }
+#intro h3{
+    color: #fff;
+    font-size: 35px;
+    font-weight:800;
+    text-transform: uppercase;
+}
+#intro .white-divider{
+    float:left;
+   
+}
+@media only screen and (max-width: 991px) {
+    .profile-picture{
+        float: none;
+        text-align: center;
+    }
+    .info{
+        float: none !important;
+        text-align: center !important;
+    }
+    #intro{
+        padding-top: 0 !important;
+        float: none !important;
+        text-align: center;
+    }
+    #intro h3,#intro .white-divider{
+       display: none;
+    }
+    #about .heading h1{
+       text-align: center;
+    }
+  }

@@ -25,7 +25,6 @@ function App() {
       <Education />
       <Portfolio />
       <Testimonials />
-  
       <Motivation />
       <Footer />
     </div>

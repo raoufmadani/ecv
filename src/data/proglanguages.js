@@ -1,9 +1,9 @@
 const progLanguage = [
 
  "Reactjs",
- "Nodejs", 
+ "Javascript (ES5/ES6)", 
  "HTML5","CSS3",
- "Javascript (ES5/ES6)",
+ "Nodejs",
  "EJS",
  "Express",
  "Rest API",
@@ -13,7 +13,7 @@ const progLanguage = [
  "Communication Skills",
  "Content Writing",
  "Arabic -NATIVE-",
- "English -EXPERT-"
+ "English -IELTS B2-"
 
 ];
 
@@ -21,7 +21,7 @@ const progLanguages = [
     
     ...progLanguage, 
     "React Native", 
-    "Redux",
+    "React & Redux",
     "MongoDB",
     "Git & Github",
     "OAuth 2.0","Jquery & Ajax",
@@ -31,7 +31,7 @@ const progLanguages = [
     "MySql",
     "Project Management",
     "Leadership",
-    "French -Very Good-","Spanish -Less Than Medium"
+    "French -Very good-","Spanish -Less Than Medium"
 ];
 
 export default progLanguages;

@@ -25,6 +25,12 @@ const ProfessionalExperience = () => {
                     jobDescription={item.jobDescription}
                     projectName={item.projectName}
                     projectLink={item.projectLink}
+                    projectName2={item.projectName2}
+                    projectLink2={item.projectLink2}
+                    projectName3={item.projectName3}
+                    projectLink3={item.projectLink3}
+                    projectName4={item.projectName4}
+                    projectLink4={item.projectLink4}
                     info={item.info}
                     info2={item.info2}
                     info3={item.info3}

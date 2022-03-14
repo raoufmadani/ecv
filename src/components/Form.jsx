@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../email/send.php';
+
 
 const Form = props => {
     
