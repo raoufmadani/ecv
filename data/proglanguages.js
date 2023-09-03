@@ -1,0 +1,40 @@
+const progLanguage = [
+   "REACT.JS",
+   "TYPESCRIPT",
+   "HTML5/CSS3/TAILWIND/BOOTSTRAP",
+   "JAVASCRIPT(ES5/ES6)",
+   "PYTHON/FLASK",
+   "NODE.JS/EXPRESS",
+   "JIRA/CONFLUENCE",
+   "SENTRY/DATADOG/GRAYLOG",
+   "REST/SOAP API",
+   "PHP",
+   "EJS",
+   "HEADLESS WORDPRESS",
+   "WOOCOMMERCE",
+   "ARABIC -NATIVE-",
+   "ENGLISH -VERY GOOD-"
+];
+
+const progLanguages = [
+   ...progLanguage,
+   "REACT NATIVE/EXPO",
+   "REDUX THUNK/SAGA",
+   "MongoDB",
+   "MYSQL",
+   "POSTGRESQL",
+   "SQLALCHEMY",
+   "MONGODB",
+   "JQUERY/AJAX",
+   "GIT/GITHUB/BITBUCKET",
+   "POSTMAN/SOAPUI/INSOMNIA",
+   "AWS CLOUD PRACTITIONER",
+   "SCRUM",
+   "LEADERSHIP",
+   "COMMUNICATION",
+   "DIGITAL MARKETING",
+   "FRENCH -GOOD-",
+   "SPANISH -LESS THAN MEDIUM-"
+];
+
+export default progLanguages;

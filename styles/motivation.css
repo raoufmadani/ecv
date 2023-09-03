@@ -1,0 +1,39 @@
+/* MOTIVATIONS*/
+
+#motivation{
+    background: #fff;
+}
+
+#motivation .heading h2{
+    color: #d82c2e;
+    text-transform: uppercase;
+}
+
+.carousel-control.left, .carousel-control.right /* classe et classe*/{
+    
+    background-image: none;
+    color: #d82c2e;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+}
+
+.carousel-indicators li{
+      border-color: #d82c2e;
+}
+
+
+
+.carousel-indicators li.active{
+    background-color: #d82c2e;
+}
+
+.carousel-inner .item{
+   padding: 40px 30px; 
+}
+
+.carousel-inner .item h3{
+    color:#d82c2e;
+    font-style: italic;
+}
