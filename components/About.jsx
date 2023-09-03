@@ -22,13 +22,18 @@ const About = () => {
                   <br />
                   <p>
                      Software developer at{" "}
-                     <a href="https://chronoinnovation.com" target="_blank">
+                     <a
+                        href="https://chronoinnovation.com"
+                        target="_blank"
+                        color="#fff"
+                        style={{ textDecoration: "underline" }}
+                     >
                         Chrono Innovation
                      </a>
                   </p>
                   <p>
                      Consultant full-stack developer at{" "}
-                     <a href="https://garda.com" target="_blank">
+                     <a href="https://garda.com" target="_blank" color="#fff" style={{ textDecoration: "underline" }}>
                         Garda World
                      </a>
                   </p>
@@ -37,6 +42,8 @@ const About = () => {
                      <a
                         href="https://www.linkedin.com/feed/update/urn:li:activity:6765546695582388224/"
                         target="_blank"
+                        color="#fff"
+                        style={{ textDecoration: "underline" }}
                      >
                         Algeria Startup Challenge 2020
                      </a>

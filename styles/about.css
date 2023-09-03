@@ -1,103 +1,115 @@
-#about{
-    background: #d82c2e;
-    padding-top:8em; 
+#about {
+   background: #d82c2e;
+   padding-top: 100px;
 }
 
-.profile-picture{
-    transition: transform .2s; /* Animation */
-    float: right;
-    text-align: left;
-    margin: 0 auto;
+.profile-picture {
+   transition: transform 0.2s; /* Animation */
+   float: right;
+   text-align: center;
+   margin: 0 auto;
 }
 
-.profile-picture img{
-    filter: grayscale(100%);
+.profile-picture img {
+   filter: grayscale(100%);
 }
-.profile-picture img:hover{
-    filter: none;
-    
+.profile-picture img:hover {
+   filter: none;
 }
-.profile-picture .heading{
-    text-align: left !important;
+.profile-picture .heading {
+   text-align: left !important;
 }
-.info{
-    float: left !important;
-    margin: 0 auto;
-    transition: transform .2s; /* Animation */
+.info {
+   float: left !important;
+   margin: 0 auto;
+   transition: transform 0.2s; /* Animation */
+   text-align: center;
 }
-
-#about .heading h1{
-    color: #fff;
-    font-size: 40px;
-    text-transform: uppercase;
-    margin-top: 15px;
+.info .heading {
+   padding-bottom: 40px;
+   text-align: center;
 }
 
-
-.button1{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: 1px solid white;
-    padding: 18px 50px;
-    margin-top: 20px;
-    display: inline-block;
-    border-radius: 3px;
-    transition: all 0.3s ease-in 0s;
-    background: transparent;
-    animation:blinkingText 1.2s infinite;
-}
-@keyframes blinkingText{
-    0%{     color: #fff;    }
-    49%{    color: #fff; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: #fff;    }
+#about .heading h1 {
+   color: #fff;
+   font-size: 40px;
+   text-transform: uppercase;
+   margin-top: 15px;
 }
 
+.button1 {
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: bold;
+   border: 1px solid white;
+   padding: 18px 50px;
+   margin-top: 20px;
+   display: inline-block;
+   border-radius: 3px;
+   transition: all 0.3s ease-in 0s;
+   background: transparent;
+   animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+   0% {
+      color: #fff;
+   }
+   49% {
+      color: #fff;
+   }
+   60% {
+      color: transparent;
+   }
+   99% {
+      color: transparent;
+   }
+   100% {
+      color: #fff;
+   }
+}
 
-.button1:hover{
-    background: #000;
-    text-decoration: none;
+.button1:hover {
+   background: #000;
+   text-decoration: none;
 }
-#intro{
-    padding-top: 2em;
-    color: #000;
-    font-size: 20px;
-    font-weight:400;
-    transition: transform .2s; /* Animation */
-    float: right;
-    text-align: justify;
-    margin: 0 auto; 
+#intro {
+   padding-top: 2em;
+   color: #000;
+   font-size: 20px;
+   font-weight: 400;
+   transition: transform 0.2s; /* Animation */
+   float: right;
+   text-align: justify;
+   margin: 0 auto;
 }
-#intro h3{
-    color: #fff;
-    font-size: 35px;
-    font-weight:800;
-    text-transform: uppercase;
+#intro h3 {
+   color: #fff;
+   font-size: 35px;
+   font-weight: 800;
+   text-transform: uppercase;
 }
-#intro .white-divider{
-    float:left;
-   
+#intro .white-divider {
+   float: left;
 }
 @media only screen and (max-width: 991px) {
-    .profile-picture{
-        float: none;
-        text-align: center;
-    }
-    .info{
-        float: none !important;
-        text-align: center !important;
-    }
-    #intro{
-        padding-top: 0 !important;
-        float: none !important;
-        text-align: center;
-    }
-    #intro h3,#intro .white-divider{
-       display: none;
-    }
-    #about .heading h1{
-       text-align: center;
-    }
-  }
+   .profile-picture {
+      float: none;
+      text-align: center;
+   }
+   .info {
+      float: none !important;
+      text-align: center !important;
+   }
+   #intro {
+      padding-top: 0 !important;
+      float: none !important;
+      text-align: center;
+   }
+   #intro h3,
+   #intro .white-divider {
+      display: none;
+   }
+   #about .heading h1 {
+      text-align: center;
+   }
+}
